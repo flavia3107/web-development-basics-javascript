@@ -1,5 +1,5 @@
 body {
-  margin: 3rem;
+  margin: 1.5rem;
   font-family: sans-serif;
   text-align: center;
   color: rgb(48, 47, 36);
@@ -20,7 +20,7 @@ button {
   font: inherit;
   background-color: rgb(221, 217, 5);
   border: 1px solid rgb(221, 217, 5);
-  color:rgb(24, 24, 11);
+  color: rgb(24, 24, 11);
   padding: 0.5rem 1.5rem;
   border-radius: 4px;
 }
@@ -32,4 +32,66 @@ button:hover {
 
 .blue-bg {
   background-color: rgb(169, 169, 255);
+}
+
+.logo {
+  text-decoration: none;
+  width: 10rem;
+  display: flex;
+  text-decoration: none;
+}
+
+.logo > img {
+  height: 35px;
+}
+
+.logo-txt {
+  padding-left: 7px;
+  display: flex;
+  flex-direction: column;
+  color: #272727;
+  align-items: flex-start;
+}
+
+.logo-img {
+  width: 2rem;
+  margin-right: 3px;
+}
+
+.logo-txt h1,
+.logo-txt span {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  letter-spacing: 4px;
+}
+
+.logo-txt h1 {
+  font-weight: bolder;
+  font-size: 1.1rem;
+  margin-top: 2px;
+  color: #272727;
+}
+
+.logo-txt span {
+  font-weight: lighter;
+  font-size: 0.85rem;
+}
+::-webkit-scrollbar {
+  height: 9px;
+  width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  width: 9px;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
 }
