@@ -1,8 +1,8 @@
 body {
-  margin: 1.5rem;
   font-family: sans-serif;
   text-align: center;
   color: #eee;
+  min-height: 98vh;
 }
 
 section {
@@ -36,48 +36,16 @@ button:hover {
 }
 
 .logo {
-  text-decoration: none;
-  width: 10rem;
+  width: fit-content;
   display: flex;
-  text-decoration: none;
 }
 
-.logo > img {
-  height: 35px;
-}
-
-.logo-txt {
-  padding-left: 7px;
+.main-content {
   display: flex;
   flex-direction: column;
-  color: #272727;
-  align-items: flex-start;
+  margin: 5% auto;
 }
 
-.logo-img {
-  width: 2rem;
-  margin-right: 3px;
-}
-
-.logo-txt h1,
-.logo-txt span {
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  letter-spacing: 4px;
-}
-
-.logo-txt h1 {
-  font-weight: bolder;
-  font-size: 1.1rem;
-  margin-top: 2px;
-  color: #272727;
-}
-
-.logo-txt span {
-  font-weight: lighter;
-  font-size: 0.85rem;
-}
 ::-webkit-scrollbar {
   height: 9px;
   width: 9px;
